@@ -1,0 +1,15 @@
+﻿.venv/
+.venv_py314/
+datasets/raw/pdfs/*.pdf
+datasets/interim/*.jsonl
+datasets/processed/chunks/*.jsonl
+datasets/processed/embeddings/*.jsonl
+datasets/processed/faiss_index/*
+models/llama_gguf/*.gguf
+models/llama_gguf/*.whl
+logs_ocr_extraction.log
+__pycache__/
+*.pyc
+checkpoints/
+*.whl
+*.whl
