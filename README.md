@@ -96,6 +96,4 @@ A few things came up that are worth mentioning for anyone trying something simil
 - The first version of the LLM generation step would get stuck repeating the same phrase. Standard fix: repetition penalty and nucleus sampling.
 - Chunk size and retrieval depth were tuned after the first pass produced overly fragmentary results — larger chunks with a minimum length filter improved answer quality noticeably.
 
-## License
 
-See [LICENSE](LICENSE).
