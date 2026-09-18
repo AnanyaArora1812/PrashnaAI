@@ -486,11 +486,25 @@ PrashnaAI/
 ├── tests/
 │
 └── README.md
-</> Markdown
+
 # ⚙️ Installation
 
 ## 1. Clone the Repository
 
-```bash
-git clone https://github.com/AnanyaArora1812/PrashnaAI.git
-cd PrashnaAI
+`git clone https://github.com/AnanyaArora1812/PrashnaAI.git`
+
+`cd PrashnaAI`
+
+## 2. Create a Virtual Environment
+
+### Windows
+
+`python -m venv .venv`
+
+Activate the environment:
+
+`.\.venv\Scripts\Activate.ps1`
+
+## 3. Install Dependencies
+
+`pip install -r requirements.txt`
