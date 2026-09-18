@@ -95,7 +95,7 @@ Users can enter the birth information of two people and compare their charts.
           Birth Information
                   │
               PERSON B
-
+___________________________________________________________________________________________________________________________
 ## 📅 Year-Ahead Analysis
 
 PrashnaAI includes a year-ahead analysis workflow based on calculated transit information and AI-generated narratives.
