@@ -95,30 +95,20 @@ Users can enter the birth information of two people and compare their charts.
           Birth Information
                   │
               PERSON B
+
 ## 📅 Year-Ahead Analysis
 
 PrashnaAI includes a year-ahead analysis workflow based on calculated transit information and AI-generated narratives.
 
-The system can generate month-oriented interpretations to help users explore astrological themes across the upcoming year.
+The system generates month-oriented interpretations to help users explore astrological themes across the upcoming year.
 
-```text
-Birth Chart
-     |
-     ▼
-Transit Calculation
-     |
-     ▼
-Monthly Context
-     |
-     ▼
-Relevant Knowledge
-     |
-     ▼
-Groq LLM
-     |
-     ▼
-Monthly Interpretation
-     |
-     ▼
-Year-Ahead Insights
+```mermaid
+flowchart TD
+    A[Birth Chart] --> B[Transit Calculation]
+    B --> C[Monthly Context]
+    C --> D[Relevant Astrology Knowledge]
+    D --> E[Groq LLM]
+    E --> F[Monthly Interpretation]
+    F --> G[Year-Ahead Insights]
 ```
+
