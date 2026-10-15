@@ -1,0 +1,402 @@
+[
+  {
+    "case_id": 1,
+    "name": "Test User 01",
+    "birth_date": "1977-01-24",
+    "birth_time": "08:15",
+    "place": "Pune",
+    "topic": "career"
+  },
+  {
+    "case_id": 2,
+    "name": "Test User 02",
+    "birth_date": "1978-12-04",
+    "birth_time": "21:47",
+    "place": "Chandigarh",
+    "topic": "finance"
+  },
+  {
+    "case_id": 3,
+    "name": "Test User 03",
+    "birth_date": "1975-10-14",
+    "birth_time": "01:01",
+    "place": "Mumbai",
+    "topic": "family"
+  },
+  {
+    "case_id": 4,
+    "name": "Test User 04",
+    "birth_date": "1983-04-17",
+    "birth_time": "19:01",
+    "place": "Chandigarh",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 5,
+    "name": "Test User 05",
+    "birth_date": "1982-12-21",
+    "birth_time": "22:34",
+    "place": "Indore",
+    "topic": "personality"
+  },
+  {
+    "case_id": 6,
+    "name": "Test User 06",
+    "birth_date": "1984-08-19",
+    "birth_time": "08:51",
+    "place": "Kanpur",
+    "topic": "career"
+  },
+  {
+    "case_id": 7,
+    "name": "Test User 07",
+    "birth_date": "1980-12-14",
+    "birth_time": "10:17",
+    "place": "Chennai",
+    "topic": "finance"
+  },
+  {
+    "case_id": 8,
+    "name": "Test User 08",
+    "birth_date": "1983-06-04",
+    "birth_time": "02:24",
+    "place": "Bangalore",
+    "topic": "family"
+  },
+  {
+    "case_id": 9,
+    "name": "Test User 09",
+    "birth_date": "1992-06-20",
+    "birth_time": "08:51",
+    "place": "Delhi",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 10,
+    "name": "Test User 10",
+    "birth_date": "1999-09-04",
+    "birth_time": "12:05",
+    "place": "Chandigarh",
+    "topic": "personality"
+  },
+  {
+    "case_id": 11,
+    "name": "Test User 11",
+    "birth_date": "1988-11-20",
+    "birth_time": "11:36",
+    "place": "Hyderabad",
+    "topic": "career"
+  },
+  {
+    "case_id": 12,
+    "name": "Test User 12",
+    "birth_date": "1974-01-22",
+    "birth_time": "07:49",
+    "place": "Lucknow",
+    "topic": "finance"
+  },
+  {
+    "case_id": 13,
+    "name": "Test User 13",
+    "birth_date": "1975-04-28",
+    "birth_time": "03:24",
+    "place": "Jaipur",
+    "topic": "family"
+  },
+  {
+    "case_id": 14,
+    "name": "Test User 14",
+    "birth_date": "1999-11-27",
+    "birth_time": "11:10",
+    "place": "Patna",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 15,
+    "name": "Test User 15",
+    "birth_date": "1992-04-22",
+    "birth_time": "08:44",
+    "place": "Mumbai",
+    "topic": "personality"
+  },
+  {
+    "case_id": 16,
+    "name": "Test User 16",
+    "birth_date": "1980-09-24",
+    "birth_time": "07:10",
+    "place": "Nagpur",
+    "topic": "career"
+  },
+  {
+    "case_id": 17,
+    "name": "Test User 17",
+    "birth_date": "1994-05-21",
+    "birth_time": "22:35",
+    "place": "Pune",
+    "topic": "finance"
+  },
+  {
+    "case_id": 18,
+    "name": "Test User 18",
+    "birth_date": "1990-01-08",
+    "birth_time": "01:51",
+    "place": "Varanasi",
+    "topic": "family"
+  },
+  {
+    "case_id": 19,
+    "name": "Test User 19",
+    "birth_date": "1995-05-03",
+    "birth_time": "06:58",
+    "place": "Amritsar",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 20,
+    "name": "Test User 20",
+    "birth_date": "1990-04-21",
+    "birth_time": "15:25",
+    "place": "Nagpur",
+    "topic": "personality"
+  },
+  {
+    "case_id": 21,
+    "name": "Test User 21",
+    "birth_date": "1979-05-05",
+    "birth_time": "07:47",
+    "place": "Chandigarh",
+    "topic": "career"
+  },
+  {
+    "case_id": 22,
+    "name": "Test User 22",
+    "birth_date": "2004-05-24",
+    "birth_time": "18:27",
+    "place": "Amritsar",
+    "topic": "finance"
+  },
+  {
+    "case_id": 23,
+    "name": "Test User 23",
+    "birth_date": "1995-06-08",
+    "birth_time": "04:32",
+    "place": "Surat",
+    "topic": "family"
+  },
+  {
+    "case_id": 24,
+    "name": "Test User 24",
+    "birth_date": "1975-01-28",
+    "birth_time": "03:09",
+    "place": "Kolkata",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 25,
+    "name": "Test User 25",
+    "birth_date": "1997-10-03",
+    "birth_time": "12:24",
+    "place": "Guwahati",
+    "topic": "personality"
+  },
+  {
+    "case_id": 26,
+    "name": "Test User 26",
+    "birth_date": "1999-09-09",
+    "birth_time": "17:55",
+    "place": "Kanpur",
+    "topic": "career"
+  },
+  {
+    "case_id": 27,
+    "name": "Test User 27",
+    "birth_date": "1977-11-18",
+    "birth_time": "08:49",
+    "place": "Varanasi",
+    "topic": "finance"
+  },
+  {
+    "case_id": 28,
+    "name": "Test User 28",
+    "birth_date": "1977-05-14",
+    "birth_time": "05:29",
+    "place": "Kanpur",
+    "topic": "family"
+  },
+  {
+    "case_id": 29,
+    "name": "Test User 29",
+    "birth_date": "1986-09-25",
+    "birth_time": "05:32",
+    "place": "Bangalore",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 30,
+    "name": "Test User 30",
+    "birth_date": "1989-11-17",
+    "birth_time": "19:12",
+    "place": "Chennai",
+    "topic": "personality"
+  },
+  {
+    "case_id": 31,
+    "name": "Test User 31",
+    "birth_date": "1993-03-18",
+    "birth_time": "16:58",
+    "place": "Kanpur",
+    "topic": "career"
+  },
+  {
+    "case_id": 32,
+    "name": "Test User 32",
+    "birth_date": "1990-08-01",
+    "birth_time": "03:59",
+    "place": "Patna",
+    "topic": "finance"
+  },
+  {
+    "case_id": 33,
+    "name": "Test User 33",
+    "birth_date": "1989-04-02",
+    "birth_time": "07:56",
+    "place": "Amritsar",
+    "topic": "family"
+  },
+  {
+    "case_id": 34,
+    "name": "Test User 34",
+    "birth_date": "1975-02-24",
+    "birth_time": "15:52",
+    "place": "Mumbai",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 35,
+    "name": "Test User 35",
+    "birth_date": "2004-03-05",
+    "birth_time": "21:30",
+    "place": "Chandigarh",
+    "topic": "personality"
+  },
+  {
+    "case_id": 36,
+    "name": "Test User 36",
+    "birth_date": "1980-05-17",
+    "birth_time": "19:27",
+    "place": "Hyderabad",
+    "topic": "career"
+  },
+  {
+    "case_id": 37,
+    "name": "Test User 37",
+    "birth_date": "2004-12-23",
+    "birth_time": "06:45",
+    "place": "Lucknow",
+    "topic": "finance"
+  },
+  {
+    "case_id": 38,
+    "name": "Test User 38",
+    "birth_date": "1995-11-21",
+    "birth_time": "11:28",
+    "place": "Ahmedabad",
+    "topic": "family"
+  },
+  {
+    "case_id": 39,
+    "name": "Test User 39",
+    "birth_date": "1998-02-08",
+    "birth_time": "07:04",
+    "place": "Varanasi",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 40,
+    "name": "Test User 40",
+    "birth_date": "1971-10-18",
+    "birth_time": "07:37",
+    "place": "Pune",
+    "topic": "personality"
+  },
+  {
+    "case_id": 41,
+    "name": "Test User 41",
+    "birth_date": "1970-02-23",
+    "birth_time": "20:03",
+    "place": "Pune",
+    "topic": "career"
+  },
+  {
+    "case_id": 42,
+    "name": "Test User 42",
+    "birth_date": "1974-01-28",
+    "birth_time": "10:04",
+    "place": "Ahmedabad",
+    "topic": "finance"
+  },
+  {
+    "case_id": 43,
+    "name": "Test User 43",
+    "birth_date": "1985-05-22",
+    "birth_time": "15:13",
+    "place": "Chandigarh",
+    "topic": "family"
+  },
+  {
+    "case_id": 44,
+    "name": "Test User 44",
+    "birth_date": "1978-12-19",
+    "birth_time": "18:30",
+    "place": "Pune",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 45,
+    "name": "Test User 45",
+    "birth_date": "2000-07-07",
+    "birth_time": "03:06",
+    "place": "Indore",
+    "topic": "personality"
+  },
+  {
+    "case_id": 46,
+    "name": "Test User 46",
+    "birth_date": "1992-07-14",
+    "birth_time": "14:55",
+    "place": "Delhi",
+    "topic": "career"
+  },
+  {
+    "case_id": 47,
+    "name": "Test User 47",
+    "birth_date": "1976-01-13",
+    "birth_time": "23:21",
+    "place": "Bangalore",
+    "topic": "finance"
+  },
+  {
+    "case_id": 48,
+    "name": "Test User 48",
+    "birth_date": "1985-04-07",
+    "birth_time": "17:28",
+    "place": "Chennai",
+    "topic": "family"
+  },
+  {
+    "case_id": 49,
+    "name": "Test User 49",
+    "birth_date": "1997-03-09",
+    "birth_time": "14:15",
+    "place": "Mumbai",
+    "topic": "relationships"
+  },
+  {
+    "case_id": 50,
+    "name": "Test User 50",
+    "birth_date": "1998-09-04",
+    "birth_time": "01:41",
+    "place": "Chandigarh",
+    "topic": "personality"
+  }
+]

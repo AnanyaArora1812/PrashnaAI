@@ -1,0 +1,101 @@
+case_id,condition,topic,failed,processing_time_s,output_generation_time_s,response_time_s,error
+1,generic,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+1,adaptive,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+2,generic,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+2,adaptive,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+3,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+3,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+4,generic,relationships,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+4,adaptive,relationships,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+5,generic,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+5,adaptive,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+6,generic,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+6,adaptive,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+7,generic,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+7,adaptive,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+8,generic,family,True,0,0,0,"chart_calc_failed: No city found matching 'Bangalore'. Check spelling, or try a nearby larger city/district headquarters instead."
+8,adaptive,family,True,0,0,0,"chart_calc_failed: No city found matching 'Bangalore'. Check spelling, or try a nearby larger city/district headquarters instead."
+9,generic,relationships,True,0,0,0,"chart_calc_failed: Multiple matches for 'Delhi': Delhi, Canada, Delhi, India, Delhi, United States, Delhi, United States, Delhi, United States. Please specify country."
+9,adaptive,relationships,True,0,0,0,"chart_calc_failed: Multiple matches for 'Delhi': Delhi, Canada, Delhi, India, Delhi, United States, Delhi, United States, Delhi, United States. Please specify country."
+10,generic,personality,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+10,adaptive,personality,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+11,generic,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Hyderabad': Hyderabad, India, Hyderabad, Pakistan. Please specify country."
+11,adaptive,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Hyderabad': Hyderabad, India, Hyderabad, Pakistan. Please specify country."
+12,generic,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Lucknow': Lucknow, Australia, Lucknow, India. Please specify country."
+12,adaptive,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Lucknow': Lucknow, Australia, Lucknow, India. Please specify country."
+13,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+13,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+14,generic,relationships,True,0,0,0,"chart_calc_failed: Multiple matches for 'Patna': Patna, United Kingdom, Patna, India. Please specify country."
+14,adaptive,relationships,True,0,0,0,"chart_calc_failed: Multiple matches for 'Patna': Patna, United Kingdom, Patna, India. Please specify country."
+15,generic,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+15,adaptive,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+16,generic,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+16,adaptive,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+17,generic,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+17,adaptive,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+18,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+18,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+19,generic,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+19,adaptive,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+20,generic,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+20,adaptive,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+21,generic,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+21,adaptive,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+22,generic,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+22,adaptive,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+23,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+23,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+24,generic,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+24,adaptive,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+25,generic,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+25,adaptive,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+26,generic,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+26,adaptive,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+27,generic,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+27,adaptive,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+28,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+28,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+29,generic,relationships,True,0,0,0,"chart_calc_failed: No city found matching 'Bangalore'. Check spelling, or try a nearby larger city/district headquarters instead."
+29,adaptive,relationships,True,0,0,0,"chart_calc_failed: No city found matching 'Bangalore'. Check spelling, or try a nearby larger city/district headquarters instead."
+30,generic,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+30,adaptive,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+31,generic,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+31,adaptive,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+32,generic,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Patna': Patna, United Kingdom, Patna, India. Please specify country."
+32,adaptive,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Patna': Patna, United Kingdom, Patna, India. Please specify country."
+33,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+33,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+34,generic,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+34,adaptive,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+35,generic,personality,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+35,adaptive,personality,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+36,generic,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Hyderabad': Hyderabad, India, Hyderabad, Pakistan. Please specify country."
+36,adaptive,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Hyderabad': Hyderabad, India, Hyderabad, Pakistan. Please specify country."
+37,generic,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Lucknow': Lucknow, Australia, Lucknow, India. Please specify country."
+37,adaptive,finance,True,0,0,0,"chart_calc_failed: Multiple matches for 'Lucknow': Lucknow, Australia, Lucknow, India. Please specify country."
+38,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+38,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+39,generic,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+39,adaptive,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+40,generic,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+40,adaptive,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+41,generic,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+41,adaptive,career,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+42,generic,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+42,adaptive,finance,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+43,generic,family,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+43,adaptive,family,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+44,generic,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+44,adaptive,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+45,generic,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+45,adaptive,personality,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+46,generic,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Delhi': Delhi, Canada, Delhi, India, Delhi, United States, Delhi, United States, Delhi, United States. Please specify country."
+46,adaptive,career,True,0,0,0,"chart_calc_failed: Multiple matches for 'Delhi': Delhi, Canada, Delhi, India, Delhi, United States, Delhi, United States, Delhi, United States. Please specify country."
+47,generic,finance,True,0,0,0,"chart_calc_failed: No city found matching 'Bangalore'. Check spelling, or try a nearby larger city/district headquarters instead."
+47,adaptive,finance,True,0,0,0,"chart_calc_failed: No city found matching 'Bangalore'. Check spelling, or try a nearby larger city/district headquarters instead."
+48,generic,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+48,adaptive,family,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+49,generic,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+49,adaptive,relationships,True,0,0,0,chart_calc_failed: 'str' object has no attribute 'year'
+50,generic,personality,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
+50,adaptive,personality,True,0,0,0,"chart_calc_failed: Multiple matches for 'Chandigarh': Chandigarh, India, Chandigarh, India. Please specify country."
