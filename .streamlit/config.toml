@@ -1,0 +1,21 @@
+# Base theme. Streamlit reads this automatically on startup - it handles the
+# widget chrome (inputs, tabs, dataframes) that CSS can't reliably reach,
+# so the injected CSS in app.py only has to handle layout and typography.
+# Keeping both in sync matters: if you change a colour here, change the
+# matching CSS variable in app.py too.
+
+[theme]
+base = "light"
+
+primaryColor = "#A07D45"              # antique brass - accents only, never fills
+backgroundColor = "#F6F7F9"           # cool paper grey, deliberately not cream
+secondaryBackgroundColor = "#FFFFFF"  # cards, sidebar, table surfaces
+textColor = "#1C2B4A"                 # deep indigo ink
+
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
