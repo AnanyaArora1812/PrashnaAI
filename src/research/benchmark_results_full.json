@@ -120,6 +120,7 @@
     "error": "chart_calc_failed: 'str' object has no attribute 'year'",
     "topic": "career"
   },
+
   {
     "case_id": 6,
     "condition": "adaptive",
@@ -131,6 +132,7 @@
     "error": "chart_calc_failed: 'str' object has no attribute 'year'",
     "topic": "career"
   },
+  
   {
     "case_id": 7,
     "condition": "generic",
@@ -142,6 +144,7 @@
     "error": "chart_calc_failed: 'str' object has no attribute 'year'",
     "topic": "finance"
   },
+
   {
     "case_id": 7,
     "condition": "adaptive",

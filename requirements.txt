@@ -1,0 +1,11 @@
+streamlit
+openai
+numpy
+faiss-cpu
+pyyaml
+sentence-transformers
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+pysweph
+geopointdb
+timezonefinder

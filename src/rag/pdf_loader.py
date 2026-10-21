@@ -28,7 +28,6 @@ if not logger.handlers:
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
 
-
 @dataclass
 class PageRecord:
     """Represents a single extracted page of text with metadata."""

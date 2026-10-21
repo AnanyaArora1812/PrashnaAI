@@ -61,3 +61,5 @@ def embed_texts(texts: list[str], model_name: str, batch_size: int = 32) -> list
     )
     logger.info("Embedding complete. Vector dimension: %d", vectors.shape[1])
     return vectors.tolist()
+
+    

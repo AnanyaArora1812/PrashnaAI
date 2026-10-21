@@ -1,4 +1,4 @@
-"""
+﻿"""
 run_comparison_benchmark.py
 
 Runs all 50 test cases through TWO conditions, both using 100% real
@@ -31,7 +31,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from openai import OpenAI
 
-from astro.geocoding import resolve_place, PlaceNotFoundError, AmbiguousPlaceError
+from datetime import date
+from astro.geocoding import resolve_place, resolve_from_candidate, PlaceNotFoundError, AmbiguousPlaceError
 from astro.chart_calculator import calculate_birth_chart
 from astro.narrative import build_topic_query, build_narrative_prompt
 from astro.narrative_groq import get_groq_client, DEFAULT_MODEL
@@ -45,10 +46,7 @@ FAISS_INDEX_PATH = "datasets/processed/faiss_index/index.faiss"
 FAISS_METADATA_PATH = "datasets/processed/faiss_index/metadata.json"
 EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
-# Small delay between Groq calls to reduce 429 rate-limit churn (same
-# lesson learned from the monthly-transit timing test earlier in this
-# project) - a fixed delay is more predictable for a paper's timing numbers
-# than letting exponential backoff retries dominate the measurement.
+
 DELAY_BETWEEN_CALLS_SECONDS = 3
 
 GENERIC_SYSTEM_PROMPT = (
@@ -177,7 +175,11 @@ def main() -> None:
         print(f"\n[Case {case['case_id']}/{len(test_cases)}] {case['name']} - {case['place']} - topic: {case['topic']}")
 
         try:
-            location = resolve_place(case["place"], birth_date=case["birth_date"])
+            birth_date_obj = date.fromisoformat(case["birth_date"])
+            try:
+                location = resolve_place(case["place"], birth_date=birth_date_obj)
+            except AmbiguousPlaceError as amb:
+                location = resolve_from_candidate(amb.candidates[0], case["place"], birth_date_obj)
             chart = calculate_birth_chart(
                 name=case["name"],
                 birth_date=case["birth_date"],
@@ -187,6 +189,8 @@ def main() -> None:
                 longitude=location.longitude,
                 place_name=case["place"],
             )
+
+    
         except (PlaceNotFoundError, AmbiguousPlaceError, Exception) as e:
             print(f"  SKIPPED (chart/geocoding failed): {e}")
             all_results.append({
